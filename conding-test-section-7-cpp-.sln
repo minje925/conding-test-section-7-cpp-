@@ -7,6 +7,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conding-test-section-7-cpp-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "미로탐색(DFS)", "미로탐색(DFS)\미로탐색(DFS).vcxproj", "{B32A8C76-4FA6-4805-96E8-44DD3474B2E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "미로의 최단거리 통로(BFS 활용)", "미로의 최단거리 통로(BFS 활용)\미로의 최단거리 통로(BFS 활용).vcxproj", "{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "등산경로(DFS)", "등산경로(DFS)\등산경로(DFS).vcxproj", "{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "섬나라 아일랜드(BFS 활용)", "섬나라 아일랜드(BFS 활용)\섬나라 아일랜드(BFS 활용).vcxproj", "{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "최대점수 구하기(DFS)", "최대점수 구하기(DFS)\최대점수 구하기(DFS).vcxproj", "{268A283E-D61D-433A-92AC-2F8C43D0C9C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +39,38 @@ Global
 		{B32A8C76-4FA6-4805-96E8-44DD3474B2E8}.Release|x64.Build.0 = Release|x64
 		{B32A8C76-4FA6-4805-96E8-44DD3474B2E8}.Release|x86.ActiveCfg = Release|Win32
 		{B32A8C76-4FA6-4805-96E8-44DD3474B2E8}.Release|x86.Build.0 = Release|Win32
+		{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}.Debug|x64.ActiveCfg = Debug|x64
+		{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}.Debug|x64.Build.0 = Debug|x64
+		{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}.Debug|x86.ActiveCfg = Debug|Win32
+		{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}.Debug|x86.Build.0 = Debug|Win32
+		{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}.Release|x64.ActiveCfg = Release|x64
+		{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}.Release|x64.Build.0 = Release|x64
+		{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}.Release|x86.ActiveCfg = Release|Win32
+		{04F6C9D3-47B9-4D85-B6D4-2DAE48DA1A32}.Release|x86.Build.0 = Release|Win32
+		{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}.Debug|x64.ActiveCfg = Debug|x64
+		{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}.Debug|x64.Build.0 = Debug|x64
+		{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}.Debug|x86.Build.0 = Debug|Win32
+		{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}.Release|x64.ActiveCfg = Release|x64
+		{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}.Release|x64.Build.0 = Release|x64
+		{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}.Release|x86.ActiveCfg = Release|Win32
+		{33ABF7CF-5F71-48D7-B2F6-01DD645AD2AC}.Release|x86.Build.0 = Release|Win32
+		{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}.Debug|x64.ActiveCfg = Debug|x64
+		{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}.Debug|x64.Build.0 = Debug|x64
+		{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}.Debug|x86.Build.0 = Debug|Win32
+		{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}.Release|x64.ActiveCfg = Release|x64
+		{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}.Release|x64.Build.0 = Release|x64
+		{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}.Release|x86.ActiveCfg = Release|Win32
+		{5C8CB2F8-2301-4185-A12B-66E8CDFA3AE9}.Release|x86.Build.0 = Release|Win32
+		{268A283E-D61D-433A-92AC-2F8C43D0C9C0}.Debug|x64.ActiveCfg = Debug|x64
+		{268A283E-D61D-433A-92AC-2F8C43D0C9C0}.Debug|x64.Build.0 = Debug|x64
+		{268A283E-D61D-433A-92AC-2F8C43D0C9C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{268A283E-D61D-433A-92AC-2F8C43D0C9C0}.Debug|x86.Build.0 = Debug|Win32
+		{268A283E-D61D-433A-92AC-2F8C43D0C9C0}.Release|x64.ActiveCfg = Release|x64
+		{268A283E-D61D-433A-92AC-2F8C43D0C9C0}.Release|x64.Build.0 = Release|x64
+		{268A283E-D61D-433A-92AC-2F8C43D0C9C0}.Release|x86.ActiveCfg = Release|Win32
+		{268A283E-D61D-433A-92AC-2F8C43D0C9C0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
